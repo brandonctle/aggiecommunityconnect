@@ -1,0 +1,156 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+a {
+  color: #800000;
+  text-decoration: none;
+}
+
+button, .button {
+  display: inline-block;
+  border: none;
+  background-color: #800000;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+button:hover, .button:hover {
+  background-color: #660000;
+  cursor: pointer;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo h1 {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #800000;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 2rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #800000;
+}
+
+/* Hero section styles */
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #800000;
+  color: #fff;
+}
+
+#hero h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Volunteer opportunities section styles */
+#volunteer-opportunities {
+  padding: 4rem 2rem;
+  background-color: #fff;
+}
+
+.opportunity {
+  border: 1px solid #ccc;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.opportunity h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #800000;
+}
+
+/* Events section styles */
+#events {
+  padding: 4rem 2rem;
+  background-color: #f5f5f5;
+}
+
+#calendar {
+  /* Calendar styles */
+}
+
+#filters {
+  /* Filter styles */
+}
+
+/* Featured organizations section styles */
+#featured-organizations {
+  padding: 4rem 2rem;
+  background-color: #fff;
+}
+
+#featured-organizations ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#featured-organizations li {
+  flex: 1 0 25%;
+  margin-bottom: 1rem;
+}
+
+#featured-organizations a {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+#featured-organizations a:hover {
+  border-color: #800000;
+  color: #800000;
+}
